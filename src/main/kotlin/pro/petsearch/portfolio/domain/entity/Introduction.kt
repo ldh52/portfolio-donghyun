@@ -14,6 +14,7 @@ class Introduction (
     var id: Long? = null
 
     var content: String = content
+
     var isActive: Boolean = isActive
 
 }
