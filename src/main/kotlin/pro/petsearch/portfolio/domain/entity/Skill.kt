@@ -18,7 +18,7 @@ class Skill(
 
     var name: String = name
 
-    @Column(name = "Skill_type")
+    @Column(name = "skill_type")
     @Enumerated(value = EnumType.STRING)
     var type: SkillType = SkillType.valueOf(type)
 

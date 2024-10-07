@@ -3,10 +3,10 @@ package pro.petsearch.portfolio.domain.entity
 import jakarta.persistence.*
 
 @Entity
-class Introduction (
+class Introduction(
     content: String,
     isActive: Boolean
-): BaseEntity() {
+) : BaseEntity() {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
